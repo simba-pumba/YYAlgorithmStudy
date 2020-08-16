@@ -34,7 +34,7 @@ def union(x, y):
         parent[y] = x
         number[x] += number[y]
 
-test_cast = int(input())
+test_case = int(input())
 
 for _ in range(test_case):
     parent = dict()
